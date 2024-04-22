@@ -3,19 +3,316 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+
+        }
+
+        body{
+            color: white;
+            background-color: #090b0e;
+
+        }
+
+        nav{
+            width: 100%;
+            height: 70px;
+            display: flex;
+            /* border: 1px solid white; */
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 20px 200px 0 200px;
+
+
+        }
+
+        img{
+           
+            width: 100px;
+            height: 30px;
+            
+        }
+
+        ul{
+            font-size: 20px;
+            
+            list-style: none;
+            /* border: 1px red; */
+            gap: 50px;
+           
+            /* text-align: center; */
+            display: flex;
+          
+
+        }
+
+        ul a{
+            color: white;
+            text-decoration: none;
+        }
+
+        ul .btn1{
+            width: 60px;
+            height: 40px;
+            font-size: 13px;
+            margin-bottom: 100px;
+            
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+
+
+
+        }
+
+        ul .btn2{
+            width: 100px;
+            height: 40px;
+            font-size: 13px;
+            margin-bottom: 100px;
+           
+            padding-bottom: 10px;
+            
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+
+
+
+        }
+
+        .hilight_sec{
+            margin-top: 150px;
+            text-align: center;
+            
+        }
+
+        .hilight_sec h1{
+           font-size: 70px;
+           font-weight: 900;
+            
+        }
+
+        span{
+           font-size: 70px;
+           font-weight: 900;
+            color: #420cee;
+        }
+
+        .hilight_sec h4{
+           font-size: 20px;
+           font-weight: 500;
+           color: #9da1a1;
+            
+        }
+
+
+
+        .Features {
+            display: flex;
+            column-gap: 50px;
+            grid-template-columns: repeat(3, 1r);
+            /* background-color: #2196F3; */
+            padding: 10px;
+            }
+
+        
+
+        .features div{
+            width: 400px;
+            height: 400px;
+            background-color: #18181b;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+
+            padding: 20px;
+            font-size: 30px;
+            /* text-align: center; */
+            }
+
+        .pricing_sec{
+            width: 400px;
+            height: 400px;
+            background-color: #18181b;
+            border: 1px solid rgba(0, 0, 0, 0.8);
+
+            padding: 20px;
+            font-size: 30px;
+        }
+        
+
+
+
+       
+
+
+
+    </style>
+
+
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-            </ul>
+            <img src="image.png" alt="Loddiing....">
+          <ul>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Showcase</a></li>
+            <button class="btn1">Login</button>
+            <button class="btn2">Sing Up <span class="material-symbols-outlined">
+                arrow_right_alt
+                </span></button>
+          </ul>
         </nav>
     </header>
+
+    <section class="hilight_sec">
+        <h1>Get your</h1>
+        <span><h1>AI Generated Website</h1></span>
+        <h1>In Seconds</h1>
+        <h4>Give it a try right below, without having to sign up!</h4>
+    </section>
+
+    <section class="Features">
+        <div class="features">
+            <h2>Features</h2>
+            <h1>Generating your website is just the start.
+                With Umso you can go all the way.</h1>
+
+            <div>
+                <span class="material-symbols-outlined">
+                    trending_up
+                    </span>
+                    <h3>Analytics</h3>
+                    <p>Monitor the performance of your startup and base decisions on data. Get website analytics with no extra setup.</p>
+                    <button>Learn more</button>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    send
+                    </span>
+                    <h3>Custom Forms</h3>
+                    <p>Don't launch to crickets – build an audience for your startup. Collect leads directly within Umso, without any 3rd-party services.
+
+                    </p><button>Learn more</button>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    group
+                    </span>
+                    <h3>User Management</h3>
+                    <p>Enable collaborative work by giving guests access to your sites, projects & other resources.</p>
+                        <button>Learn more</button>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    edit
+                    </span>
+                    <h3>Blogs</h3>
+                    <p>Monitor the performance of your startup and base decisions on data. Get website analytics with no extra setup.</p>
+                    <button>Learn more</button>
+            </div>  
+            <div>
+                <span class="material-symbols-outlined">
+                    trending_up
+                    </span>
+                    <h3>Analytics</h3>
+                    <p>Produce new content, extend your reach, start appearing on Google. Add a simple blog to your site with a few clicks.</p>
+                    <button>Learn more</button>
+            </div>
+            <div>
+                <span class="material-symbols-outlined">
+                    cookie
+                    </span>
+
+                    <h3>Cookie Solutions</h3>
+                    <p>Set up cookie banners that help you respect your visitor's privacy. This is especially important for Europe.</p>
+                    <button>Learn more</button>
+            </div>
+            
+
+            <div>
+                <span class="material-symbols-outlined">
+                    language
+                    </span>
+
+                    <h3>Multilingual Sites</h3>
+                   <p>Easily manage your website in multiple languages. With this feature you can offer your site to everyone.</p>
+                    <button>Learn more</button>
+            </div>
+                
+        </div>
+
+    </section>
+
+    <p>"Umso is far away the easiest Landing page builder I've ever used. It is very intuitive and you can set up a test for a new project in less than one hour without any knowledge in coding. Even if it is simple, it is very robust and there all options needed."</p>
+    <h4>Pierre Lilien</h4>
+
+    <section >
+        <h3>PRICING</h3>
+        <h1>One Price for Everything</h1>
+        <p>The simplest pricing in the industry. You won't need a calculator for this.</p>
+
+        <div class="pricing_sec">
+          
+                <nav>
+                    <h1>Pro</h1>
+                <button></button>
+                </nav>
+                <p>Includes everything you need for your professional website</p>
+                <h1>$20</h1><p>
+                    / Site / Month (billed annually)</p>
+                    <ul>
+                       
+                        <li><span class="material-symbols-outlined">
+                            check
+                            </span>Custom Domains</li>
+                         <li><span class="material-symbols-outlined">
+                                check
+                        </span>Custom Domains</li>
+                                <li><span class="material-symbols-outlined">
+                                    check
+                                    </span>Custom Domains</li>
+                                    <li><span class="material-symbols-outlined">
+                                        check
+                                        </span>Custom Domains</li>
+                                        <li><span class="material-symbols-outlined">
+                                            check
+                                            </span>Custom Domains</li>
+                                            <li><span class="material-symbols-outlined">
+                                                check
+                                                </span>Custom Domains</li>
+                                                <li><span class="material-symbols-outlined">
+                                                    check
+                                                    </span>Custom Domains</li>
+                                                    <li><span class="material-symbols-outlined">
+                                                        check
+                                                        </span>Custom Domains</li>
+                    </ul>
+                    <button>Get Started <span class="material-symbols-outlined">
+                        arrow_right_alt
+                        </span> </button>
+            
+        </div>
+        
+    </section>
+
+
+    
+
+
     
 </body>
 </html>
